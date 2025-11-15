@@ -21,13 +21,13 @@ tkinter (Python標準ライブラリに含まれています)
 renameTool.pyと同じディレクトリに、以下の構造を持つ**Setting.py**を作成してください。
 Python
 
-# Setting.py の例
+Setting.py の例
 
-# 実行時にデフォルトで表示される対象フォルダ
+実行時にデフォルトで表示される対象フォルダ
 DEFAULT_TARGET_FOLDER = ""  # 例: "C:/Users/User/Documents/TargetFolder"
 
-# プルダウンメニューに表示する部門コードのリスト
-# (コードと説明をスペースで区切ることを推奨)
+プルダウンメニューに表示する部門コードのリスト
+(コードと説明をスペースで区切ることを推奨)
 DEPARTMENT_CODES = [
     "SALES 営業部",
     "DEV 開発部",
